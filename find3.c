@@ -35,6 +35,6 @@ int main(void)
        if( value == '3') three_count++; 
     }
     fclose(fd);
-    printf("Number of '3' characters found in %s = %d\n", filename, seven_count);
+    printf("Number of '3' characters found in %s = %d\n", filename, three_count);
     exit(0);
 }
